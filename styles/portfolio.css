@@ -15,6 +15,9 @@
     background-position: top left, bottom right;
 }
 /* shared style*/
+.secendary-bg{
+    background-color: #fff8f3;
+}
  .text-primary{
     color: #FD6E0A;
  }
@@ -50,6 +53,15 @@ nav ul li a{
     font-size: 16px;
     border: none;
 }
+.section-title{
+    font-weight: bold;
+    color: #181818;
+
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
 nav ul{
     display: flex;
     align-items: center;
@@ -78,4 +90,22 @@ nav ul{
     width: 580px;
 
 
+}
+/*main styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*about styles*/
+.about{
+    padding: 100px 130px;
+    text-align: center;
+    margin-top: 110px;
+}
+.item-description{
+    font-weight: bold;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
